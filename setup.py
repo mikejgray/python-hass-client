@@ -30,7 +30,7 @@ setup(
     long_description_content_type="text/markdown",
     packages=PACKAGES,
     include_package_data=True,
-    python_requires=">=3.8",
+    python_requires=">=3.7",
     install_requires=REQUIRES,
     package_data={"hass_client": PACKAGE_FILES},
     zip_safe=False,
